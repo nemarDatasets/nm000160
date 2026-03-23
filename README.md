@@ -1,0 +1,152 @@
+# Multi-joint upper-limb MI dataset from Yi et al. 2025
+
+Multi-joint upper-limb MI dataset from Yi et al. 2025.
+
+## Dataset Overview
+
+- **Code**: Yi2025
+- **Paradigm**: imagery
+- **DOI**: 10.1038/s41597-025-05286-0
+- **Subjects**: 18
+- **Sessions per subject**: 1
+- **Events**: hand_open_close=1, wrist_flex_ext=2, wrist_abd_add=3, elbow_pron_sup=4, elbow_flex_ext=5, shoulder_pron_sup=6, shoulder_abd_add=7, shoulder_flex_ext=8
+- **Trial interval**: [0, 4] s
+- **Runs per session**: 8
+- **File format**: CNT
+
+## Acquisition
+
+- **Sampling rate**: 1000.0 Hz
+- **Number of channels**: 62
+- **Channel types**: eeg=62
+- **Channel names**: Fp1, Fpz, Fp2, AF3, AF4, F7, F5, F3, F1, Fz, F2, F4, F6, F8, FT7, FC5, FC3, FC1, FCz, FC2, FC4, FC6, FT8, T7, C5, C3, C1, Cz, C2, C4, C6, T8, TP7, CP5, CP3, CP1, CPz, CP2, CP4, CP6, TP8, P7, P5, P3, P1, Pz, P2, P4, P6, P8, PO7, PO5, PO3, POz, PO4, PO6, PO8, CB1, O1, Oz, O2, CB2
+- **Montage**: standard_1005
+- **Hardware**: Neuroscan SynAmps2
+- **Reference**: left mastoid (M1)
+- **Line frequency**: 50.0 Hz
+
+## Participants
+
+- **Number of subjects**: 18
+- **Health status**: healthy
+- **Age**: min=22, max=27
+- **Gender distribution**: female=10, male=8
+- **Handedness**: right
+- **BCI experience**: naive
+- **Species**: human
+
+## Experimental Protocol
+
+- **Paradigm**: imagery
+- **Number of classes**: 8
+- **Class labels**: hand_open_close, wrist_flex_ext, wrist_abd_add, elbow_pron_sup, elbow_flex_ext, shoulder_pron_sup, shoulder_abd_add, shoulder_flex_ext
+- **Trial duration**: 4.0 s
+- **Study design**: 8-class multi-joint upper-limb MI. 8 blocks of 40 trials (5 per class), 320 total trials per subject.
+- **Feedback type**: none
+- **Stimulus type**: video + text
+- **Stimulus modalities**: visual
+- **Primary modality**: visual
+- **Synchronicity**: cue-based
+- **Mode**: offline
+
+## HED Event Annotations
+
+Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+```
+  hand_open_close
+    ├─ Sensory-event
+    └─ Label/hand_open_close
+
+  wrist_flex_ext
+    ├─ Sensory-event
+    └─ Label/wrist_flex_ext
+
+  wrist_abd_add
+    ├─ Sensory-event
+    └─ Label/wrist_abd_add
+
+  elbow_pron_sup
+    ├─ Sensory-event
+    └─ Label/elbow_pron_sup
+
+  elbow_flex_ext
+    ├─ Sensory-event
+    └─ Label/elbow_flex_ext
+
+  shoulder_pron_sup
+    ├─ Sensory-event
+    └─ Label/shoulder_pron_sup
+
+  shoulder_abd_add
+    ├─ Sensory-event
+    └─ Label/shoulder_abd_add
+
+  shoulder_flex_ext
+    ├─ Sensory-event
+    └─ Label/shoulder_flex_ext
+
+```
+## Paradigm-Specific Parameters
+
+- **Detected paradigm**: motor_imagery
+- **Imagery tasks**: hand_open_close, wrist_flex_ext, wrist_abd_add, elbow_pron_sup, elbow_flex_ext, shoulder_pron_sup, shoulder_abd_add, shoulder_flex_ext
+- **Cue duration**: 2.0 s
+- **Imagery duration**: 4.0 s
+
+## Data Structure
+
+- **Trials**: 320
+- **Trials per class**: hand_open_close=40, wrist_flex_ext=40, wrist_abd_add=40, elbow_pron_sup=40, elbow_flex_ext=40, shoulder_pron_sup=40, shoulder_abd_add=40, shoulder_flex_ext=40
+- **Blocks per session**: 8
+- **Trials context**: 8 blocks x 40 trials (5 per class x 8 classes)
+
+## Signal Processing
+
+- **Classifiers**: ShallowConvNet
+- **Feature extraction**: ERSP
+- **Frequency bands**: alpha=[8.0, 13.0] Hz; beta=[13.0, 30.0] Hz; bandpass=[4.0, 40.0] Hz
+- **Spatial filters**: CAR
+
+## Cross-Validation
+
+- **Method**: 5-fold
+- **Folds**: 5
+- **Evaluation type**: within_subject
+
+## BCI Application
+
+- **Applications**: rehabilitation
+- **Environment**: laboratory
+- **Online feedback**: False
+
+## Tags
+
+- **Pathology**: Healthy
+- **Modality**: Motor
+- **Type**: Motor Imagery
+
+## Documentation
+
+- **DOI**: 10.1038/s41597-025-05286-0
+- **License**: CC-BY-NC-ND-4.0
+- **Investigators**: Weibo Yi, Jiaming Chen, Dan Wang, Xinkang Hu, Meng Xu, Fangda Li, Shuhan Wu, Jin Qian
+- **Institution**: Beijing University of Technology
+- **Country**: CN
+- **Data URL**: https://figshare.com/articles/dataset/Data/24123303
+- **Publication year**: 2025
+
+## References
+
+Yi, W., Chen, J., Wang, D., et al. (2025). A multi-modal dataset of EEG and fNIRS for motor imagery of multi-types of joints from unilateral upper limb. Scientific Data, 12, 953. https://doi.org/10.1038/s41597-025-05286-0
+
+Notes
+
+.. versionadded:: 1.2.0
+Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+
+Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
+
+---
+Generated by MOABB 1.5.0 (Mother of All BCI Benchmarks)
+https://github.com/NeuroTechX/moabb

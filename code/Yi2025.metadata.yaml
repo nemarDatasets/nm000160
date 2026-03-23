@@ -1,0 +1,200 @@
+_dataset:
+  class: Yi2025
+  code: Yi2025
+  doi: 10.1038/s41597-025-05286-0
+  interval:
+  - 0
+  - 4
+  n_subjects: 18
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 62
+  hardware: Neuroscan SynAmps2
+  line_freq: 50.0
+  montage: standard_1005
+  n_channels: 62
+  reference: left mastoid (M1)
+  sampling_rate: 1000.0
+  sensors:
+  - Fp1
+  - Fpz
+  - Fp2
+  - AF3
+  - AF4
+  - F7
+  - F5
+  - F3
+  - F1
+  - Fz
+  - F2
+  - F4
+  - F6
+  - F8
+  - FT7
+  - FC5
+  - FC3
+  - FC1
+  - FCz
+  - FC2
+  - FC4
+  - FC6
+  - FT8
+  - T7
+  - C5
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - C6
+  - T8
+  - TP7
+  - CP5
+  - CP3
+  - CP1
+  - CPz
+  - CP2
+  - CP4
+  - CP6
+  - TP8
+  - P7
+  - P5
+  - P3
+  - P1
+  - Pz
+  - P2
+  - P4
+  - P6
+  - P8
+  - PO7
+  - PO5
+  - PO3
+  - POz
+  - PO4
+  - PO6
+  - PO8
+  - CB1
+  - O1
+  - Oz
+  - O2
+  - CB2
+bci_application:
+  applications:
+  - rehabilitation
+  environment: laboratory
+cross_validation:
+  cv_folds: 5
+  cv_method: 5-fold
+  evaluation_type:
+  - within_subject
+data_structure:
+  n_blocks: 8
+  n_trials: 320
+  n_trials_per_class:
+    elbow_flex_ext: 40
+    elbow_pron_sup: 40
+    hand_open_close: 40
+    shoulder_abd_add: 40
+    shoulder_flex_ext: 40
+    shoulder_pron_sup: 40
+    wrist_abd_add: 40
+    wrist_flex_ext: 40
+  trials_context: 8 blocks x 40 trials (5 per class x 8 classes)
+documentation:
+  country: CN
+  data_url: https://figshare.com/articles/dataset/Data/24123303
+  doi: 10.1038/s41597-025-05286-0
+  institution: Beijing University of Technology
+  investigators:
+  - Weibo Yi
+  - Jiaming Chen
+  - Dan Wang
+  - Xinkang Hu
+  - Meng Xu
+  - Fangda Li
+  - Shuhan Wu
+  - Jin Qian
+  license: CC-BY-NC-ND-4.0
+  publication_year: 2025
+experiment:
+  class_labels:
+  - hand_open_close
+  - wrist_flex_ext
+  - wrist_abd_add
+  - elbow_pron_sup
+  - elbow_flex_ext
+  - shoulder_pron_sup
+  - shoulder_abd_add
+  - shoulder_flex_ext
+  events:
+    elbow_flex_ext: 5
+    elbow_pron_sup: 4
+    hand_open_close: 1
+    shoulder_abd_add: 7
+    shoulder_flex_ext: 8
+    shoulder_pron_sup: 6
+    wrist_abd_add: 3
+    wrist_flex_ext: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 8
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: video + text
+  study_design: 8-class multi-joint upper-limb MI. 8 blocks of 40 trials (5 per class), 320 total trials per subject.
+  synchronicity: cue-based
+  trial_duration: 4.0
+file_format: CNT
+paradigm_specific:
+  cue_duration_s: 2.0
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - hand_open_close
+  - wrist_flex_ext
+  - wrist_abd_add
+  - elbow_pron_sup
+  - elbow_flex_ext
+  - shoulder_pron_sup
+  - shoulder_abd_add
+  - shoulder_flex_ext
+participants:
+  age_max: 27
+  age_min: 22
+  bci_experience: naive
+  gender:
+    female: 10
+    male: 8
+  handedness: right
+  health_status: healthy
+  n_subjects: 18
+  species: human
+runs_per_session: 8
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - ShallowConvNet
+  feature_extraction:
+  - ERSP
+  frequency_bands:
+    alpha:
+    - 8.0
+    - 13.0
+    bandpass:
+    - 4.0
+    - 40.0
+    beta:
+    - 13.0
+    - 30.0
+  spatial_filters:
+  - CAR
+tags:
+  modality:
+  - Motor
+  pathology:
+  - Healthy
+  type:
+  - Motor Imagery
