@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000160-blue)](https://doi.org/10.82901/nemar.nm000160)
+
 # Multi-joint upper-limb MI dataset from Yi et al. 2025
 
 Multi-joint upper-limb MI dataset from Yi et al. 2025.
