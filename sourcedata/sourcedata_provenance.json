@@ -1,0 +1,815 @@
+{
+ "dataset": "nm000160",
+ "moabb_class": "Yi2025",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Yi2025.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-yi2025-data/FineMI",
+ "license": "CC-BY-NC-ND-4.0",
+ "doi": "10.1038/s41597-025-05286-0",
+ "naming": "upstream_filenames_restored",
+ "n_files": 160,
+ "total_bytes": 31852893527,
+ "files": [
+  {
+   "file": "subject1/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject1/EEG/block1-4.cnt",
+   "bytes": 1210913705,
+   "sha256": "f4f753b0745e95284523758b36b502072bef2a7f305a12dd8c6356b88f66143a"
+  },
+  {
+   "file": "subject1/EEG/block5.cnt",
+   "bytes": 248683465,
+   "sha256": "9f6e4e84dc49138d4dec75c891a18efa8ab9f98c3d09eabd72b3ad86f6b85f68"
+  },
+  {
+   "file": "subject1/EEG/block6.cnt",
+   "bytes": 220536905,
+   "sha256": "f1852b26afdd661841fe46c7fdc467b84cea05ad459386abdf1bf66c64885e13"
+  },
+  {
+   "file": "subject1/EEG/block7.cnt",
+   "bytes": 224181705,
+   "sha256": "1805c9ee9f0869901405431c2d8d996d862b95df284229aae744187a70fb6f1b"
+  },
+  {
+   "file": "subject1/EEG/block8.cnt",
+   "bytes": 222582345,
+   "sha256": "2a5e308b30ff5bfe762ec7e480f53823280881f0647a9d04e01e57766e412e38"
+  },
+  {
+   "file": "subject10/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject10/EEG/block1.cnt",
+   "bytes": 220645705,
+   "sha256": "d7a1d3d37ff8631eec1004bdd845a4f39aeae4ad1ac75d6621d267ae5ad1ae00"
+  },
+  {
+   "file": "subject10/EEG/block2.cnt",
+   "bytes": 228381385,
+   "sha256": "49ec0576b4f037f24dafe3484e3f8df97950a9ed17a36f71db9e9a8b458ab7ac"
+  },
+  {
+   "file": "subject10/EEG/block3.cnt",
+   "bytes": 215434185,
+   "sha256": "273a02a81caa87f6847998592adc16b3a00dfd68fdbc1a85a4cc4e9d169902e8"
+  },
+  {
+   "file": "subject10/EEG/block4.cnt",
+   "bytes": 224138185,
+   "sha256": "76881b62a93f7db4b6cea76316afaae4bd6bfeb78bae535814d0de953c692b42"
+  },
+  {
+   "file": "subject10/EEG/block5.cnt",
+   "bytes": 215825865,
+   "sha256": "2ceef93fd9afddaf11b4be875f07e758acfd3455193f90fafc7c9002038253d4"
+  },
+  {
+   "file": "subject10/EEG/block6.cnt",
+   "bytes": 215216585,
+   "sha256": "9332e5b1ce6e99479b42ce6ac7d210f5d91dcbae91d6fdcf632251c18baa66d2"
+  },
+  {
+   "file": "subject10/EEG/block7.cnt",
+   "bytes": 215967305,
+   "sha256": "b09c9a19f14e21ed27a78fb6ca4d3e1c87fc4a9e5fd1bbe4324bd5a3d3a306b3"
+  },
+  {
+   "file": "subject10/EEG/block8.cnt",
+   "bytes": 216467785,
+   "sha256": "058c298ad76b1659087539fae413af7b73dc7155a7ffa4244ff8bb077dac7ff2"
+  },
+  {
+   "file": "subject11/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject11/EEG/block1.cnt",
+   "bytes": 214933705,
+   "sha256": "7a83676b975a6bc7262ffe1f28b62215dac4c8971dfbec103ed125b5faabd4e8"
+  },
+  {
+   "file": "subject11/EEG/block2.cnt",
+   "bytes": 225900745,
+   "sha256": "c01efe6ac1fe4a79cbda260db36b6e36a07caa1c9e7033e700fce5ec0e129911"
+  },
+  {
+   "file": "subject11/EEG/block3.cnt",
+   "bytes": 225324105,
+   "sha256": "64232284ce1e86d54d813812cdb147f39266610e2f01ab97b07eb451ddce0e8e"
+  },
+  {
+   "file": "subject11/EEG/block4.cnt",
+   "bytes": 216206665,
+   "sha256": "df14050a8a0a213a9d819dd7a03037e0af0f8ff4fb0a7b48afbc16d2f6903e21"
+  },
+  {
+   "file": "subject11/EEG/block5.cnt",
+   "bytes": 214389705,
+   "sha256": "f3ee415cc04ad0cda7f5fb4942022944ddd5c90dfc0127b2b5abcec4ea9ce118"
+  },
+  {
+   "file": "subject11/EEG/block6.cnt",
+   "bytes": 216718025,
+   "sha256": "6b4384523d6dbd4cc4527f0f8d77e6391e57aab5dff605ea2a52a9ec278def1b"
+  },
+  {
+   "file": "subject11/EEG/block7.cnt",
+   "bytes": 212344265,
+   "sha256": "70bb181479910dc75ba03d42944720a3eb1a97de34aeae4870717a716e74d9f3"
+  },
+  {
+   "file": "subject11/EEG/block8.cnt",
+   "bytes": 215564745,
+   "sha256": "b6de17dbaea1e539fa2c2da348efa01bf73df3c9a73ce53f709811f9b3c2e6f4"
+  },
+  {
+   "file": "subject12/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject12/EEG/block1.cnt",
+   "bytes": 217849545,
+   "sha256": "145a5dea0f4d895be5a2a9740da15d601591d456f6d1f9594e72bc52ec10a9e8"
+  },
+  {
+   "file": "subject12/EEG/block2.cnt",
+   "bytes": 216228425,
+   "sha256": "0d0cc0407a61035aa9f07db5b27a74a596c020bd44409d33b2ef7bfeb795d7f9"
+  },
+  {
+   "file": "subject12/EEG/block3.cnt",
+   "bytes": 220700105,
+   "sha256": "c09ff527631821aad7d052ae340091be331c167281bc431845a3735e02dacf61"
+  },
+  {
+   "file": "subject12/EEG/block4.cnt",
+   "bytes": 229240905,
+   "sha256": "b7ef7812901d18674fd06de52947f5c76ee315ac67e86164d94c4bf2c99ded7f"
+  },
+  {
+   "file": "subject12/EEG/block5.cnt",
+   "bytes": 216054345,
+   "sha256": "4076b25389b7104e58b938477f035358234cda9ac6e3fcab00dd80fa47be2b88"
+  },
+  {
+   "file": "subject12/EEG/block6.cnt",
+   "bytes": 218371785,
+   "sha256": "5f06daabc8e508af2c59dd3a7647a5aaeb7a332c5307e83e8dda728e903e1c37"
+  },
+  {
+   "file": "subject12/EEG/block7.cnt",
+   "bytes": 237335625,
+   "sha256": "a170fe39ba9d48255c117f5e7a7e1ab91e939ac2d52e64d5301fd28db5adb254"
+  },
+  {
+   "file": "subject12/EEG/block8.cnt",
+   "bytes": 214618185,
+   "sha256": "9f4e2417db99d9f75c7648192e4761b4f861b667bea15f3d5134c4cd70322488"
+  },
+  {
+   "file": "subject13/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject13/EEG/block1.cnt",
+   "bytes": 215401545,
+   "sha256": "65abba028b10fc94c10cffbb5326aceed0bf16a9f8f3a39cba962cdbb264145a"
+  },
+  {
+   "file": "subject13/EEG/block2.cnt",
+   "bytes": 216652745,
+   "sha256": "b7f5ba7b9f4998ca9ee1699af81dddd0868604be8305c224e7bce50f79d66b60"
+  },
+  {
+   "file": "subject13/EEG/block3.cnt",
+   "bytes": 233418825,
+   "sha256": "7864bd62f616dfff98b25f5f3303018c8bf423c434afb28b4ee5b152036f6fe2"
+  },
+  {
+   "file": "subject13/EEG/block4.cnt",
+   "bytes": 218295625,
+   "sha256": "071fc477b1a92385a46e5f500a7eb94dfe7272d8e12647edb128b494bf63c86c"
+  },
+  {
+   "file": "subject13/EEG/block5.cnt",
+   "bytes": 218785225,
+   "sha256": "2c48a8271677e88de5502afd871b428b4656f14583b06236e74308d8671d25bb"
+  },
+  {
+   "file": "subject13/EEG/block6.cnt",
+   "bytes": 214182985,
+   "sha256": "884aa74a1cd315c5ec00d69f9e4b288a3dffdd07c2ae7dbc9a3d7e704941f597"
+  },
+  {
+   "file": "subject13/EEG/block7.cnt",
+   "bytes": 231438665,
+   "sha256": "1dcf61e26788c2036f6b323d837490f437ce4adef4457d2ad2445a609d11e80c"
+  },
+  {
+   "file": "subject13/EEG/block8.cnt",
+   "bytes": 217305545,
+   "sha256": "1c672e9ea3d48514cd2d480ecc45fa7595765f086f910d59e340998aa486b442"
+  },
+  {
+   "file": "subject14/EEG/block1.cnt",
+   "bytes": 223387465,
+   "sha256": "bd9025bc416f72b14a7c6145bfd1acd6730708593041df2949aaabf25aa54335"
+  },
+  {
+   "file": "subject14/EEG/block2.cnt",
+   "bytes": 217523145,
+   "sha256": "f63fe31d6c59142d58058cf3ee5a14cb3189f9b98fd648759dbf029863a1d2ea"
+  },
+  {
+   "file": "subject14/EEG/block3.cnt",
+   "bytes": 213160265,
+   "sha256": "4264992b9477b7e1cfac3f96e4c4aa2538aaffc123e60c6208945a326d48cbfe"
+  },
+  {
+   "file": "subject14/EEG/block4.cnt",
+   "bytes": 218861385,
+   "sha256": "7eb7c5b82bbcbbd5bbd23895086b36ec95972193869c0c38a7868cd4dc72fb67"
+  },
+  {
+   "file": "subject14/EEG/block5.cnt",
+   "bytes": 219198665,
+   "sha256": "a128b5aae5c54252e3a202ccd695cea9c7a16e90748161015360c333d2168dc3"
+  },
+  {
+   "file": "subject14/EEG/block6.cnt",
+   "bytes": 212801225,
+   "sha256": "424e8a18b148def9b9987f601238fbab7e31794d6431f3de2247f65987d4e299"
+  },
+  {
+   "file": "subject14/EEG/block7.cnt",
+   "bytes": 228870985,
+   "sha256": "40951a44e42157d726c66ec7bce72a834900cb448a991c2f27fc38e08912a05b"
+  },
+  {
+   "file": "subject14/EEG/block8.cnt",
+   "bytes": 214770505,
+   "sha256": "faa21dda8eb7ff7ce83e32bbb251496aed7d724e775109ea6c8ca96037d3ffb7"
+  },
+  {
+   "file": "subject15/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject15/EEG/block1.cnt",
+   "bytes": 234952905,
+   "sha256": "4ce86b2b3aed7d76400c589ba2069728e78ed075741db6da3ff20e44dd5f8ae6"
+  },
+  {
+   "file": "subject15/EEG/block2.cnt",
+   "bytes": 215630025,
+   "sha256": "63b68a2fc79b29dbd39ed5b313fdfaf5edc1fc011cfdcf458efe2d8ff308d671"
+  },
+  {
+   "file": "subject15/EEG/block3.cnt",
+   "bytes": 218197705,
+   "sha256": "d8dfc0b2237d5d9017a473cc7a9e6af98c5b3a0f203e7b7ce3225bbdfe7e5d17"
+  },
+  {
+   "file": "subject15/EEG/block4.cnt",
+   "bytes": 221896905,
+   "sha256": "8252431143c9d48c746a06cb08e7df24ea2a4740abaa060d06cf54a54b7b7529"
+  },
+  {
+   "file": "subject15/EEG/block5.cnt",
+   "bytes": 224421065,
+   "sha256": "604fc7841c08a9d7bbed787d02251406f1596d80950b24a1572274ec9bc9bd29"
+  },
+  {
+   "file": "subject15/EEG/block6.cnt",
+   "bytes": 238184265,
+   "sha256": "79a97e6221fe69a848875355fb0203acb814bc7b2a0e2ad7e70d9c43a65f3bfa"
+  },
+  {
+   "file": "subject15/EEG/block7.cnt",
+   "bytes": 215151305,
+   "sha256": "104ee2d7fe81a4b38600d884ee6637d2572c7b5ea016a70cbf34ff0dcc404349"
+  },
+  {
+   "file": "subject15/EEG/block8.cnt",
+   "bytes": 235866825,
+   "sha256": "cabf22c4543607d9d6e35ed541345c98764662206b95a5f9ebde896b9305b638"
+  },
+  {
+   "file": "subject16/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject16/EEG/block1.cnt",
+   "bytes": 223246025,
+   "sha256": "73a5cf7ed927b0cd3e9bba68f3fbcdf3293aa255436410facf3340fe209b1996"
+  },
+  {
+   "file": "subject16/EEG/block2.cnt",
+   "bytes": 214019785,
+   "sha256": "bf97fb06398ff04fdc2889dac844a52a005749f2b9eef96f50c8b5585c5cc25d"
+  },
+  {
+   "file": "subject16/EEG/block3.cnt",
+   "bytes": 211299785,
+   "sha256": "f3094c008fafd9211b609be448d06a22347a185b2b0aa7e57b57e1f3c87b99ed"
+  },
+  {
+   "file": "subject16/EEG/block4.cnt",
+   "bytes": 230502985,
+   "sha256": "ea4145609eff9e06a74bad5db7cb497f7ce8dceb76752b4219604ce0280c832b"
+  },
+  {
+   "file": "subject16/EEG/block5.cnt",
+   "bytes": 218806985,
+   "sha256": "0699fd55d924969177def76e1880fa54ef974e0bb6e729e34285946c6d519e7d"
+  },
+  {
+   "file": "subject16/EEG/block6.cnt",
+   "bytes": 215989065,
+   "sha256": "98a91d4aac1e809c9988ed31d6437ef812df4139f891a314ed712d62020fcbdc"
+  },
+  {
+   "file": "subject16/EEG/block7.cnt",
+   "bytes": 215064265,
+   "sha256": "d64cc45e653a38fe0082c5e37b6770e56227dfa4498876cdff67c05aff584180"
+  },
+  {
+   "file": "subject16/EEG/block8.cnt",
+   "bytes": 218371785,
+   "sha256": "afec0bc8c5e4add4be0ab74b7db871083ea2d2dd53405a636e0dea5b41690eb6"
+  },
+  {
+   "file": "subject17/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject17/EEG/block1.cnt",
+   "bytes": 217947465,
+   "sha256": "5f72e0998bb607d8f9627f1f4850de7e5f3933147020b224a5542b3d31d429be"
+  },
+  {
+   "file": "subject17/EEG/block2.cnt",
+   "bytes": 211941705,
+   "sha256": "381af7d68f5b9ccae2a9609f8117d39c56f745358e9bb2fc192f81d2af875780"
+  },
+  {
+   "file": "subject17/EEG/block3.cnt",
+   "bytes": 214204745,
+   "sha256": "7ea44b9fef94df16e6efb4cb8afcce236ebabbd546eb73ccb322e747ec4803b7"
+  },
+  {
+   "file": "subject17/EEG/block4.cnt",
+   "bytes": 215238345,
+   "sha256": "5cdddf019136e1ce0a83b5486f9841c5e16ad7558b6659f8f1b4e7220d570856"
+  },
+  {
+   "file": "subject17/EEG/block5.cnt",
+   "bytes": 214944585,
+   "sha256": "bf43dcac7d2dba65817ad35f0fa3c23164b6830ce2d1d47aa05d770764470223"
+  },
+  {
+   "file": "subject17/EEG/block6.cnt",
+   "bytes": 215771465,
+   "sha256": "88ed797d8262027567ec52ed7b7a644206ea016f012acf5a3de9110109af28a1"
+  },
+  {
+   "file": "subject17/EEG/block7.cnt",
+   "bytes": 219209545,
+   "sha256": "d79fa298aa533d5d6bcd31a926fa755137d5017e48f5dc52a40f8d6a5c966c48"
+  },
+  {
+   "file": "subject17/EEG/block8.cnt",
+   "bytes": 213682505,
+   "sha256": "c6bda0d57af7474f20994a56ff13acc3e75db83fdb8ccce3eb8866e9289828ae"
+  },
+  {
+   "file": "subject18/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject18/EEG/block1.cnt",
+   "bytes": 217969225,
+   "sha256": "9d3ed530a763a17b4087fc3ee876b36b64c4892b184cb282f3559414903293ac"
+  },
+  {
+   "file": "subject18/EEG/block2.cnt",
+   "bytes": 215989065,
+   "sha256": "c80947611af4a6cfc76be41f9ba6f4756b2b18f71b5ed1592234fa3d45b6561c"
+  },
+  {
+   "file": "subject18/EEG/block3.cnt",
+   "bytes": 214814025,
+   "sha256": "dffcac4676335dcca467a7250fd433cd642115a8d634324e78818b4b9de44916"
+  },
+  {
+   "file": "subject18/EEG/block4.cnt",
+   "bytes": 218480585,
+   "sha256": "a32585afea7daa5e999bfcd1bd7cb313d848d4521662f4902a8ed8630940748f"
+  },
+  {
+   "file": "subject18/EEG/block5.cnt",
+   "bytes": 213921865,
+   "sha256": "c208878a784997146ecf905143c207197848bd1f887c515ff5544717104f9cc5"
+  },
+  {
+   "file": "subject18/EEG/block6.cnt",
+   "bytes": 216805065,
+   "sha256": "41d54da51e4bf0f1156562018eed446a2f08876881e90567189da548b7e8ee08"
+  },
+  {
+   "file": "subject18/EEG/block7.cnt",
+   "bytes": 213475785,
+   "sha256": "076b7da3795c8e5a015ab9da8adf6bcaa3bc30361f00c76044743be4235cb338"
+  },
+  {
+   "file": "subject18/EEG/block8.cnt",
+   "bytes": 217468745,
+   "sha256": "f5fd09f747c0cc72ff0b9c70452240296a16c13b0e659dd0bcca532d2a149933"
+  },
+  {
+   "file": "subject2/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject2/EEG/block1.cnt",
+   "bytes": 216239305,
+   "sha256": "eb8b41d0592ffb520a81eeb82a26bb83a721c360c64aea063bfb587441e3e5f5"
+  },
+  {
+   "file": "subject2/EEG/block2.cnt",
+   "bytes": 215532105,
+   "sha256": "a570e3c2e717d361cbd159992b49ee51b368cb9c7de580742d8cb0712a0c18cf"
+  },
+  {
+   "file": "subject2/EEG/block3.cnt",
+   "bytes": 216021705,
+   "sha256": "37731f345ac435736f8e1b4976f55f9fa15d0d1481196fd169fdbd976d5a1505"
+  },
+  {
+   "file": "subject2/EEG/block4.cnt",
+   "bytes": 212942665,
+   "sha256": "acfc111b22b95e95f37fa910dd4c5e8320ce27036b0dd5ea3136084bc94671b0"
+  },
+  {
+   "file": "subject2/EEG/block5.cnt",
+   "bytes": 213236425,
+   "sha256": "ca773d712642f95df2354dd0bd6a9bfc59349e15b552e4e6cf0eb8af57aefa06"
+  },
+  {
+   "file": "subject2/EEG/block6.cnt",
+   "bytes": 237433545,
+   "sha256": "4354356b04f12f3e878f3c4eeb84856113ed28788512c72fbd3587a966a8472b"
+  },
+  {
+   "file": "subject2/EEG/block7.cnt",
+   "bytes": 216728905,
+   "sha256": "afea91ccc3cc16da12d8d46713684f7aa950de2213c2b449d459e66b338f511d"
+  },
+  {
+   "file": "subject2/EEG/block8.cnt",
+   "bytes": 212050505,
+   "sha256": "c7ade6d1a557d1292a4cf3c7af5431e923e4415cab50eb95f43625d9095e2e4e"
+  },
+  {
+   "file": "subject3/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject3/EEG/block1.cnt",
+   "bytes": 218175945,
+   "sha256": "403657e40603d927f5c718bd78b763e597f820c005066a088e7f6df1bd453aae"
+  },
+  {
+   "file": "subject3/EEG/block2.cnt",
+   "bytes": 215140425,
+   "sha256": "ec5bf6c47031804fba3b0b1bb5a3f2d5eeb9131e44add22512756b19b7392794"
+  },
+  {
+   "file": "subject3/EEG/block3.cnt",
+   "bytes": 214291785,
+   "sha256": "4a33136d8deba90ceeb7b703dfcb1173534f6f2e4ff7a4a0b1cba702e0aa9f0b"
+  },
+  {
+   "file": "subject3/EEG/block4.cnt",
+   "bytes": 217055305,
+   "sha256": "ceaa95a1eba09f1e18c069ce9bd4e985b8c9ec90731cc6ff0a80218db5225d06"
+  },
+  {
+   "file": "subject3/EEG/block5.cnt",
+   "bytes": 211354185,
+   "sha256": "4ccff02efef26968bb6c9a0911a6813d2d5e93ab265a94cc5e522c6bde44f7d8"
+  },
+  {
+   "file": "subject3/EEG/block6.cnt",
+   "bytes": 244940745,
+   "sha256": "5c788b55238499e6f6cc6eeb5561b7b3daea66139c4d2dc1e477330a9ed57913"
+  },
+  {
+   "file": "subject3/EEG/block7.cnt",
+   "bytes": 213410505,
+   "sha256": "abe553db135d65aa5bd20c44399817bf1655ee59a1d5c4d31e2ad217898953c3"
+  },
+  {
+   "file": "subject3/EEG/block8.cnt",
+   "bytes": 212866505,
+   "sha256": "07bce3e5798eb7a1622a66698d0f8863e11c3c6e8dbeff283d3c91f51e4872ec"
+  },
+  {
+   "file": "subject4/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject4/EEG/block1.cnt",
+   "bytes": 221559625,
+   "sha256": "661287007e52b050b9fac812a27c335ccad3a8c13091f3e3329c126f46f789e9"
+  },
+  {
+   "file": "subject4/EEG/block2.cnt",
+   "bytes": 212768585,
+   "sha256": "835fb3af425582b8e4202c0a43d132e81b065468d001fd339d93b2dc2c45dfc2"
+  },
+  {
+   "file": "subject4/EEG/block3.cnt",
+   "bytes": 214835785,
+   "sha256": "1f2f03584efd8d408704265d4eb61d8e7855c09d0a66d2179cb8db552e1645da"
+  },
+  {
+   "file": "subject4/EEG/block4.cnt",
+   "bytes": 211734985,
+   "sha256": "5b0c026422b4b17837bda5dbd746752a7123f670442066489bccb2d2d66c692c"
+  },
+  {
+   "file": "subject4/EEG/block5.cnt",
+   "bytes": 214324425,
+   "sha256": "adfab69602e0541d33605ab89ac4bd204fa39738ca3ab6ca15fb0bb52101eeb0"
+  },
+  {
+   "file": "subject4/EEG/block6.cnt",
+   "bytes": 213921865,
+   "sha256": "60908a7d376f1dbb005babc2c5f7edca69ff04855c4341c553a328fe2148ab4a"
+  },
+  {
+   "file": "subject4/EEG/block7.cnt",
+   "bytes": 214857545,
+   "sha256": "3895de46326b3fa414a033d41c1797b5e724f81c102a0e97d0fca2a5966895dd"
+  },
+  {
+   "file": "subject4/EEG/block8.cnt",
+   "bytes": 212648905,
+   "sha256": "4d03f54b967f1af4932478ff63f3b95b2d7b320bdc2c2d35dda96bbf881eaea3"
+  },
+  {
+   "file": "subject5/EEG/._notes.txt",
+   "bytes": 4096,
+   "sha256": "5c314f5cf8fd94f620cb44f47af7ae0d19fb1e8ed78fff2c07459fe49e7c1f45"
+  },
+  {
+   "file": "subject5/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject5/EEG/block1.cnt",
+   "bytes": 222005705,
+   "sha256": "19da63bc3699105ab4129d9d53467274d04e52a540eb61c993605f84e735b0ee"
+  },
+  {
+   "file": "subject5/EEG/block2.cnt",
+   "bytes": 234735305,
+   "sha256": "2497c928e36ecbb3dae1dc06d1fa24c67a84ca30b75991fca8d722e7274bd478"
+  },
+  {
+   "file": "subject5/EEG/block3.cnt",
+   "bytes": 214998985,
+   "sha256": "abdb0190e967b1aa93170ec8059ce85f1ac6a930d3c9c416fbbdb8d9c56fcf3c"
+  },
+  {
+   "file": "subject5/EEG/block4.cnt",
+   "bytes": 218034505,
+   "sha256": "f8752faacf9e359391a4e4b711033d4bbfeecd48c9bca92e404c6dd399a2313b"
+  },
+  {
+   "file": "subject5/EEG/block5.cnt",
+   "bytes": 213889225,
+   "sha256": "0f98c4945d6bb8b1b8a58f0238c07084c77aab8ae5c884e745c73c99e83acb1d"
+  },
+  {
+   "file": "subject5/EEG/block6.cnt",
+   "bytes": 250239324,
+   "sha256": "1b6ffe7b89fd6abbe44ca9b5c0454ee6ef204ef827a4c78518010c0d68bd147d"
+  },
+  {
+   "file": "subject5/EEG/block7.cnt",
+   "bytes": 232700745,
+   "sha256": "db13c97a2225c56fda563cf19bcfffa48a4419403ac734cec88eee1b7e24c58b"
+  },
+  {
+   "file": "subject5/EEG/block8.cnt",
+   "bytes": 214237385,
+   "sha256": "4094dbd5003e6a08e61ce544397504e7f772d843ed74ee5dd89978ddfedb64df"
+  },
+  {
+   "file": "subject5/EEG/notes.txt",
+   "bytes": 47,
+   "sha256": "19340724e696a1b3d01c88ac8cf51bd69933f9c4d7860d845268ca14b9c38646"
+  },
+  {
+   "file": "subject6/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject6/EEG/block1.cnt",
+   "bytes": 212725065,
+   "sha256": "5b6d5ba34a1cab92d74b0d06b61813b862cc0c5fc0a93f1d3c178e91766a1774"
+  },
+  {
+   "file": "subject6/EEG/block2.cnt",
+   "bytes": 211713225,
+   "sha256": "ef9490654ed2d38a7db55465d5058c192149cdba9baad3664c8bb207157fbb7e"
+  },
+  {
+   "file": "subject6/EEG/block3.cnt",
+   "bytes": 212986185,
+   "sha256": "854b7027a6fdc6fcaed1e41d6b9b8a11ad8d9473eceafe3742841e2b8d588a75"
+  },
+  {
+   "file": "subject6/EEG/block4.cnt",
+   "bytes": 214128585,
+   "sha256": "aa5c030d99b848afd817baa22a692efc7d82918fe33c3b4413214a4af29dcc92"
+  },
+  {
+   "file": "subject6/EEG/block5.cnt",
+   "bytes": 215684425,
+   "sha256": "2dc8cd390b3f57af2c8ff29f5873ee5ae4625533b06d1555e0c8c44ad4296eed"
+  },
+  {
+   "file": "subject6/EEG/block6.cnt",
+   "bytes": 212681545,
+   "sha256": "8836b23a6558a701379088b69209faa738e0da7cd2157cba84e9b01098b0b5a5"
+  },
+  {
+   "file": "subject6/EEG/block7.cnt",
+   "bytes": 214161225,
+   "sha256": "7ebf6214cc6eaa5d53b862d8a1b5870b03654f94481a93d385866e8f14aee70e"
+  },
+  {
+   "file": "subject6/EEG/block8.cnt",
+   "bytes": 214618185,
+   "sha256": "77a57ada780fa12c8c26585c6db09ab268d757f979300c6f6f80c1d699a522f3"
+  },
+  {
+   "file": "subject7/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject7/EEG/block1.cnt",
+   "bytes": 219655625,
+   "sha256": "13c2f33128f6b4adc780ee870312734d7dea006615bcb7ac9f16797ec58f1a01"
+  },
+  {
+   "file": "subject7/EEG/block2.cnt",
+   "bytes": 214324425,
+   "sha256": "6839ddb721156028f292754b3b5528791e2b579ab8acf8954486eb7b4e2eb63d"
+  },
+  {
+   "file": "subject7/EEG/block3.cnt",
+   "bytes": 214911945,
+   "sha256": "e2b9c5d96cec049914dd6b6027f26fad03688fa3dc8aa73a3bd71632ee8ff931"
+  },
+  {
+   "file": "subject7/EEG/block4.cnt",
+   "bytes": 252709065,
+   "sha256": "740438b254a22b4faaa3df11a834b5500fb0113ff8a83bd4fb3e1654f0d9d664"
+  },
+  {
+   "file": "subject7/EEG/block5.cnt",
+   "bytes": 215880265,
+   "sha256": "3e0cd92745f22c3d74ffe9751a69d70159471c9ce92462058e11bef434c0eabc"
+  },
+  {
+   "file": "subject7/EEG/block6.cnt",
+   "bytes": 216511305,
+   "sha256": "c23fc87a3434579def86d035a93b1f88d88b82e67ed291bdcab0ee4868321246"
+  },
+  {
+   "file": "subject7/EEG/block7.cnt",
+   "bytes": 215662665,
+   "sha256": "8def5f021e0db881cd1af18ff6bd2aa79a751c953f98781e0716fa7eeb8eeee1"
+  },
+  {
+   "file": "subject7/EEG/block8.cnt",
+   "bytes": 214411465,
+   "sha256": "c878a1ba5d4013980830a57b8ca58a0988fa73ed9e46b059ad8b503a9998a883"
+  },
+  {
+   "file": "subject8/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject8/EEG/block1.cnt",
+   "bytes": 214944585,
+   "sha256": "8d40950ba3f4b46f598de77bfb5dd89c50cd0fbee96c48456863f4d25bffcc3a"
+  },
+  {
+   "file": "subject8/EEG/block2.cnt",
+   "bytes": 210853705,
+   "sha256": "5f38988ced16e80199d429cbaf03063fb5c80acd67d2e416f1093042ecb94025"
+  },
+  {
+   "file": "subject8/EEG/block3.cnt",
+   "bytes": 215303625,
+   "sha256": "bd1d523d315d34407a89714e1343b8b113f1c4d5fd44b4dbbabf3d33c5bc3bac"
+  },
+  {
+   "file": "subject8/EEG/block4.cnt",
+   "bytes": 210538185,
+   "sha256": "64b72219454ea169f12fc3dd281611c8912eb7b468f4c0df54d98912a5580fe6"
+  },
+  {
+   "file": "subject8/EEG/block5.cnt",
+   "bytes": 212866505,
+   "sha256": "77417b8d2c5396547dc0b06c97ba8c5e48d321c84e451f5b92e18f8c02cf04e9"
+  },
+  {
+   "file": "subject8/EEG/block6.cnt",
+   "bytes": 213203785,
+   "sha256": "3f6ed9aef9d3fba65cba49a18e7c733d8265ee2303588d39e058158a826c07f8"
+  },
+  {
+   "file": "subject8/EEG/block7.cnt",
+   "bytes": 212855625,
+   "sha256": "f8272d5c539e9d3a837fa77f59f081331d6dec4531a514e30bcb1edd5a195be6"
+  },
+  {
+   "file": "subject8/EEG/block8.cnt",
+   "bytes": 212768585,
+   "sha256": "2d527fe27ecb8494e488ab3651973f1d83f2f9515c980d14e8b175adc9645ddf"
+  },
+  {
+   "file": "subject9/EEG/History4.5.txt",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "file": "subject9/EEG/block1.cnt",
+   "bytes": 212855625,
+   "sha256": "524a326279da2a517e816978645583817467c59c24e1b471aa39e6aba02f1f52"
+  },
+  {
+   "file": "subject9/EEG/block2.cnt",
+   "bytes": 215162185,
+   "sha256": "036f2557f6d10cf197823834a2eeaac49cb5a82abcb9d0557d3fec30c1dbb691"
+  },
+  {
+   "file": "subject9/EEG/block3.cnt",
+   "bytes": 232635465,
+   "sha256": "8a08560729c2d0dcda3cab24009e4e41cebf24052ec5fd1dffc67ac41a9c8fb0"
+  },
+  {
+   "file": "subject9/EEG/block4.cnt",
+   "bytes": 238902345,
+   "sha256": "a2dc967da95479e80f06c505ffadbf7a6e650c5718dbd81a41cb02d0a79cfb30"
+  },
+  {
+   "file": "subject9/EEG/block5.cnt",
+   "bytes": 215771465,
+   "sha256": "95e147296a896656e92bd42a319f0dab00303a02ba0893450385fe94ef706720"
+  },
+  {
+   "file": "subject9/EEG/block6.cnt",
+   "bytes": 217087945,
+   "sha256": "47a54b2be7c9e4c561260ae871ca889f19f8e95690339e16e99d5cc012e95bbb"
+  },
+  {
+   "file": "subject9/EEG/block7.cnt",
+   "bytes": 217751625,
+   "sha256": "9d12a759dc71182d6cdef5a43862e13f70cccbd637af528d834411749f5f2cd6"
+  },
+  {
+   "file": "subject9/EEG/block8.cnt",
+   "bytes": 213432265,
+   "sha256": "af5415e14f6b215393d92c8186c58667cfc6dd097daf6518b058e095df21adfc"
+  }
+ ]
+}
