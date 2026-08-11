@@ -1,0 +1,81 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Weibo Yi": {},
+    "Jiaming Chen": {
+      "orcid": "0000-0002-7162-6903"
+    },
+    "Dan Wang": {},
+    "Xinkang Hu": {},
+    "Meng Xu": {},
+    "Fangda Li": {},
+    "Shuhan Wu": {},
+    "Jin Qian": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-05286-0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000160",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000160",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Multi-joint upper-limb MI dataset from Yi et al. 2025",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "53.6 GB (285 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".cnt",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A multi-joint upper-limb motor imagery EEG dataset comprising 18 healthy subjects performing eight distinct imagery tasks involving hand, wrist, elbow, and shoulder movements. The dataset contains 320 trials per subject acquired using 62-channel EEG at 1000 Hz sampling rate with visual cue-based paradigm, designed for brain-computer interface research and motor rehabilitation applications.",
+  "methods_description": "EEG data were acquired using a Neuroscan SynAmps2 system with 62 channels arranged in the standard 1005 montage, referenced to the left mastoid (M1), and sampled at 1000 Hz. Participants performed eight classes of motor imagery tasks (hand open/close, wrist flexion/extension, wrist abduction/adduction, elbow pronation/supination, elbow flexion/extension, shoulder pronation/supination, shoulder abduction/adduction, shoulder flexion/extension) in response to visual cues and text instructions. Each session consisted of 8 blocks containing 40 trials (5 trials per class), yielding 320 total trials per subject with a 4-second trial duration.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "upper limb"
+    },
+    {
+      "term": "motor rehabilitation"
+    },
+    {
+      "term": "event-related desynchronization"
+    },
+    {
+      "term": "multi-joint"
+    }
+  ],
+  "source_hash": "239fdd95bf494d5a82092d7964255f8d85de9977e748713a94c461789e9ea52d"
+}
