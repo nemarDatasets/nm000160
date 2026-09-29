@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Multi-joint upper-limb MI dataset from Yi et al. 2025",
-  "description": "A multi-joint upper-limb motor imagery EEG dataset comprising 18 healthy subjects performing eight distinct imagery tasks involving hand, wrist, elbow, and shoulder movements. The dataset contains 320 trials per subject acquired using 62-channel EEG at 1000 Hz sampling rate with visual cue-based paradigm, designed for brain-computer interface research and motor rehabilitation applications.",
-  "methods_description": "EEG data were acquired using a Neuroscan SynAmps2 system with 62 channels arranged in the standard 1005 montage, referenced to the left mastoid (M1), and sampled at 1000 Hz. Participants performed eight classes of motor imagery tasks (hand open/close, wrist flexion/extension, wrist abduction/adduction, elbow pronation/supination, elbow flexion/extension, shoulder pronation/supination, shoulder abduction/adduction, shoulder flexion/extension) in response to visual cues and text instructions. Each session consisted of 8 blocks containing 40 trials (5 trials per class), totaling 320 trials per subject with a 4-second trial duration.",
+  "description": "This dataset contains 62-channel EEG recordings from 18 healthy, right-handed participants performing motor imagery of eight multi-joint movements of the unilateral upper limb. The movements involve the hand, wrist, elbow and shoulder. Each participant completed 320 cue-based trials across 8 blocks, with 40 trials per class. The data support research on brain-computer interfaces for motor rehabilitation.",
+  "methods_description": "EEG was recorded with a Neuroscan SynAmps2 amplifier at 1000 Hz from 62 channels, referenced to the left mastoid (M1). Participants were cued by video and text and imagined each movement for 4 s. The eight classes were hand open/close, wrist flexion/extension, wrist abduction/adduction, elbow pronation/supination, elbow flexion/extension, shoulder pronation/supination, shoulder abduction/adduction, and shoulder flexion/extension. Each participant completed one session of 8 blocks with 40 trials per block (5 per class).",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -26,19 +26,18 @@
       "term": "motor imagery"
     },
     {
-      "term": "brain-computer interfaces"
+      "term": "brain-computer interface"
     },
     {
       "term": "upper limb"
     },
     {
-      "term": "motor rehabilitation"
+      "term": "Rehabilitation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012046"
     },
     {
-      "term": "healthy subjects"
-    },
-    {
-      "term": "multi-joint"
+      "term": "multi-joint movement"
     }
   ],
   "related_identifiers": [
@@ -56,6 +55,16 @@
       "identifier": "https://nemar.org/dataset/nm000160",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -64,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "53.6 GB (285 files)"
+    "49.96 GB (285 files)"
   ],
   "formats": [
     ".bdf",
